@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #fcbcbc, #c0e2fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fffdf3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin: 10px;
+    align-items: stretch;
+    padding: 10px;
+}
+
+.card img {
+    width: 35%;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.text-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: #101010;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: #666;
+    font-size: 12.5px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.signature {
+    text-align: right;
+    font-style: italic;
+    color: #666;
+}
